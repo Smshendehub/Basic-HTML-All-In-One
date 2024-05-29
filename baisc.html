@@ -1,0 +1,152 @@
+<html>
+<html lang="en">
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatiable" content="IE-edge">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="shortcut for icon" href="favicon.ico" type="image/ico">
+        <title>saurabh web page</title>
+</head>
+
+<body>
+       <h1 style="color:red;"> Demo form </h1>
+       <h2 style="background-color:gray ;">Check Form</h2>
+         
+       <form>
+
+<label for="username">username:</label>
+<input type="text" size="15" placeholder="enter username" required style="cursor:pointer;"> </input><br>    
+<label for="password">password:</label>
+<input type="password" size="15" placeholder="enter password" required style="cursor:pointer;"></input>
+<br>
+
+       <label for="cars">  <b> cars:</b> </label>
+       <select required>
+       <option>honda</option>
+       <option>BMW</option>
+       <option>creta</option>
+       <option>supra</option>
+       </select>
+<br>    
+       whu should we hire you?:
+       <br>
+       <textarea name="message" row="6" cols="50" placeholder="write here"></textarea>
+       <fieldset>
+              <legend>
+                     Personal Info:
+              </legend>
+       </fieldset>
+       <br>
+       <p>
+
+       </p>
+<label for="browser"><b>select browser:</b></label>
+<input list="browser"></input>
+<datalist id="browser">
+       <option value="chrome">chrome</option>
+       <option value="firefox">firefox</option>
+       <option value="opera mini">opera mini</option>
+       <option value="uc mini">uc mini</option>
+       
+</datalist>
+
+
+       <br>
+choose fruit:
+<select id="fruit" name ="fruit">
+<br>
+<optgroup label="citrus">
+<option value="orange">orange</option>
+<option value="lemon">lemon</option>
+<option value="kiwi">kiwi</option>       
+</optgroup>
+<optgroup label="sweet">
+<!--    this is the way of comments in HTML <option value="mango">mango</option>      -->       
+<option value="apple">apple</option>
+<option value="guava">guava</option>     
+</optgroup>       
+</select>
+<br>
+<p>
+
+</p>
+      gender:
+      <br><input type="radio" name="gender">male<br></input>
+      <input type="radio" name="gender">female<br></input>
+      <input type="radio" name="gender">other</input>
+
+      <br>
+
+<b>skills:</b><br>
+       <input type="checkbox" name="skill">java<br>
+       <input type="checkbox" name="skill">python<br>
+       <input type="checkbox" name="skill">c<br>
+       <input type="checkbox" name="skill">c++<br>
+
+       choose file:<input type="file" id="my file" name="my file"></input>
+       <br>
+       date<input type="date" id="DOB" name="DOB"></input>
+       <br>
+   color:
+      <br><input type="color" name="color"></input>
+      <br>
+
+      email:
+      <br><input type="email" id="email" name="email"></input>
+      <input type="reset"></input>
+
+
+       <button type="button" style="background-color:red;">submit</button><br>
+
+       <marquee><a href="https://www.youtube.com/">Click here</a></marquee>
+      search:<br>
+       <input type="search" id="search" name="search"><a href="https://www.google.com/">search</a></input>
+       <br>
+       <video  width="300"height="300"controls >
+       <source src="C:\Users\Vicky\Downloads\Saurabh.mp4"type="video/mp4">
+       </video>
+       <br>
+       <audio width="200"height="300"controls>
+       <source src="C:\Users\Vicky\Downloads\Saurabh.mp4" type="video/mp4">
+       </audio>
+      
+       <p> My name <abbr title="saurabh mahadev shende">SMS</abbr> i am from murtizapur<q> maharashtra</q></p>  <img src="C:\Users\Vicky\Downloads\codecode.jpg"width="100" alt="saurabh aadhar"></img> <!--  to display image without error we must use complete path-->
+
+      </form>
+
+      <!--we can create table use height and width , cellpadding (space between border edge and cells) and cellspacing (each cells space) in HTML is this way -->
+      <table style="width:100%;" height="50" border="5" cellpadding="5" cellspacing="10"> 
+      <caption>personal Info</caption>
+      <colgroup>           <!-- to specify any property for specific colums -->
+      <col span="1" style="background-color: lightblue;">
+      </colgroup>
+      <thead><tr><th>username:</th>
+                 <th>Fist name</th>
+                 <th>Last name</th>
+                 <th style="width:30%;">G-mail</th>       <!--use to specify width of specific row or colum-->
+                 <th>Roll-No</th>
+             </tr> 
+       </thead>
+
+       <tbody><tr>
+                 <td>manthanaage123</td>
+                 <td></td>
+                 <td> aage</td>
+                 <td style="width:30%;"> aage119@gmail.com</td>       <!--use to specify width of specific row or colum-->
+                 <td>15</td>
+             </tr> 
+             <tr>
+                 <td>saurabh123</td>
+                 <td>saurabh</td>
+                 <td> shende</td>
+                 <td style="width:30%;"> shende@gmail.com</td>       <!--use to specify width of specific row or colum-->
+                 <td>16</td>
+             </tr> 
+       </tbody>
+       </table>
+
+
+
+</body>
+
+</html>
